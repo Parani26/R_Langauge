@@ -11,7 +11,7 @@
 
 # VECTOR CREATION
 number<- c(2,4,6,8,10); number # creating a vector of numbers
-inshalla <- c(9,3,5,7,1)
+insh <- c(9,3,5,7,1)
 string<- c("weight", "height", "gender"); string # creating a vector of strings/characters
 logic<- c(T, T, F, F, T); logic # creating a Boolean vector (T/F)
 length(logic) # length of the vector
@@ -22,8 +22,8 @@ min(number) # minimum value of vector
 sum(number) # total of all the values in x
 mean(number) # arithmetic average values in x
 range(number) # min(x) and max(x)
-cor(number, inshalla)# correlation bw vectors x and y # only for quantitative variables
-sort(inshalla) # sorted version of x
+cor(number, insh)# correlation bw vectors x and y # only for quantitative variables
+sort(insh) # sorted version of x
 
 # FUNCTION numeric()
 number.2<- numeric(3); number.2 # creating a vector of zeros
